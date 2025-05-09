@@ -4,3 +4,38 @@
     <meta charset="UTF-8" />
     <title>Survey Form</title>
   </head>
+  <body>
+    <h1 id="title">Pawan's survey form</h1>
+    <p id="description">Hello this is Pawan please submit your survey</p>
+    <form id="survey-form">
+      <label for="name"id="name-label">Name</label>
+      <input required placeholder="Enter your Name" type="text" id="name"><br>
+      <label id="email-label" for="email">Email</label>
+      <input required placeholder="Enter your email" type="email" id="email"><br>
+      <label for="number-label" id="number-label">Number</label>
+      <input required placeholder="Enter your Number" type="number" min="10" max="10" id="number"><br>
+      <label>Do you like me?</label>
+      <select id="dropdown">
+        <option>Yes</option>
+        <option>Yes definitely</option>
+      </select>
+      <p>How would you rate me?</p>
+      <label>Excellent
+      <input type="radio" name="Excellent" value="excellent">
+      <input type="radio" name="Excellent" value="excellent"></label>
+      <label>Amazing
+      <input type="radio" name="Amazing" value="Amazing">
+      <input type="radio" name="Amazing" value="Amazing">
+      </label><br>
+      <label>How amazing am I?
+        <label>Super amazing<input value="super amazing" type="checkbox"></label>
+      <label>Fantastic  <input type="checkbox" value="fantastic">
+        </label>
+        </label>
+      <p>Please leave a feedback</p>
+      <textarea></textarea>
+      <br>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
